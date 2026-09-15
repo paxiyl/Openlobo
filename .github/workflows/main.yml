@@ -25,7 +25,7 @@ jobs:
       - name: Extract source ZIP
         run: |
           mkdir extracted
-          unzip -q OpenMyau-Ravn-Ported-Final-Fixed.zip -d extracted
+          unzip -q OpenMyau-Ravn-Ported-Final.zip -d extracted
 
       - name: Verify project
         working-directory: extracted/work_v4
